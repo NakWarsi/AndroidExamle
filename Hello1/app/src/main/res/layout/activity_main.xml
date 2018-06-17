@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:gravity="center"
+        android:text="@string/msg"
+        android:id="@+id/editInput"
+
+        android:textColor="#ff0000"
+        android:textSize="60sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="enter any text"
+        android:textSize="60sp"
+        android:id="@+id/etInput"
+
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:id="@+id/btSubmit"
+
+        android:textSize="50sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ff00"
+        android:gravity="left"
+        android:text="TextDisplay"
+        android:textColor="#ff0000"
+        android:textSize="40sp"
+        android:id="@+id/tvDisplay"
+
+        />
+
+
+
+
+</LinearLayout>

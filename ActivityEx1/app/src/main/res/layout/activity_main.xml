@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show browser"
+        android:textStyle="italic"
+        android:onClick="showBrowser"
+        android:textSize="40sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Map"
+        android:textStyle="normal"
+        android:textAllCaps="false"
+        android:onClick="showMap"
+        android:textSize="40sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dial number"
+        android:textStyle="italic"
+        android:onClick="dailNum"
+        android:textSize="40sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="call number"
+        android:textAllCaps="false"
+        android:onClick="callNum"
+        android:textSize="40sp"/>
+
+</LinearLayout>

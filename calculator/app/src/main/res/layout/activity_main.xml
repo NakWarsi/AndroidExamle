@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="first activity"
+        android:textSize="40sp"
+        android:id="@+id/etInput1"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show list"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/btMinus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hide list"
+        android:textSize="30sp"/>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+
+</LinearLayout>
